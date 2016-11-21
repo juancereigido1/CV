@@ -1,0 +1,200 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color:#333;
+  min-height: 100%;
+  background-color: #efefef;
+}
+
+section h3{
+  font-size: 13px;
+}
+
+.titulo-seccion {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: solid #efefef;
+  margin-top: 40px 10px 2px 40px;
+}
+
+.nombre {
+  font-size: 28px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.profesion {
+  font-size: 22px;
+  color: #777;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 12px;
+  color: #777;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.titulo-datos {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.valor-datos {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sobre-mi,
+.cursos,
+.experiencia-laboral,
+.hobbies {
+  padding: 30px 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item a {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 45px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #85878b;
+  margin: 0px;
+}
+
+.item {
+  border-bottom: solid #26292e;
+  padding: 0px;
+  height: 45px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.hv:hover .texto-hv{
+  color: white;
+}
+
+.item:hover{
+  background-color: yellow;
+}
+
+.imagen {
+  text-align: center;
+}
+
+#contenedor {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.c-derecha {
+  background-color: white;
+  width: 72%;
+  float: right;
+  padding: 10px;
+}
+
+.c-izquierda {
+  width: 24%;
+  float: left;
+}
+
+.valor-datos {
+  display: inline-block;
+  width: 63%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.titulo-datos {
+  display: inline-block;
+  width: 35%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+img {
+  width: 350px;
+}
+
+#imagen-1 {
+  background-image: url(../img/web.jpg);
+  width: 100%;
+  min-height: 140px;
+  background-size: cover;
+  background-position: 0;
+}
+
+#imagen-2 {
+  background-image: url(../img/salir.png);
+  width: 100%;
+  min-height: 140px;
+  background-size: cover;
+  background-position: 0;
+}
+
+#imagen-3 {
+  background-image: url(../img/placa.jpg);
+  width: 100%;
+  min-height: 140px;
+  background-size: cover;
+  background-position: center;
+}
+
+section#hobbies .item-hobbie {
+  width: 31%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+}
+
+section#hobbies h3 {
+  font-style: italic;
+}
+
+.w-clearfix {
+  display: inline-block;
+  width: 100%;
+  background-color: #999;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.w-clearfix:after {
+  clear: both;
+}
+
+p.texto-hv {
+  margin: 0;
+  line-height: 42px;
+}
